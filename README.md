@@ -1,21 +1,18 @@
 # DynaCam
 
-<h1 align="center"> 
-  <img src="assets/DynaCam_logo.png" width="40%" />
-</h1>
+DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations:  
+ - **3D human trajectories in world coordinates**
+ - **Camera poses**  
 
-DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations like:  
- - **Camera poses:**.  
- - **3D human trajectories in global coordinates:**.  
+DynaCam is introduced in CVPR 2023 paper 
 
-DynaCam is introduced in CVPR 2023 paper [TRACE: Temporal Regression of 5D Avatars with Dynamic Cameras in 3D Environments]().
-
- **[[Project Page]](https://www.yusun.work/TRACE/TRACE.html) [[TRACE Code]](https://github.com/Arthur151/ROMP)**
+TRACE: Temporal Regression of 5D Avatars with Dynamic Cameras in 3D Environments.
 
 ## Download
 
-[[Google drive]]()   
-[[Baidu drive]]()  
+[[Google drive]](https://drive.google.com/drive/folders/12zJYkTlKPn_3tlh96BQ6zuyEr3vTxqRw?usp=sharing) 
+
+The extended dataset, evaluation & visualization code will be released later. 
 
 ## Citation
 Please cite our paper if you use RH in your research. 
