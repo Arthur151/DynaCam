@@ -11,7 +11,7 @@ DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, includi
 The extended dataset, evaluation & visualization code will be released later. 
 
 ## Citation
-Please cite our paper if you use RH in your research. 
+Please cite our paper if you use DynaCam in your research. 
 ```bibtex
 @InProceedings{TRACE,
     author = {Sun, Yu and Bao, Qian and Liu, Wu and Mei, Tao and Black, Michael J.},
