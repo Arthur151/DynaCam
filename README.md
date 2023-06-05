@@ -8,7 +8,21 @@ DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, includi
 
 [[Google drive]](https://drive.google.com/drive/folders/12zJYkTlKPn_3tlh96BQ6zuyEr3vTxqRw?usp=sharing) 
 
-The extended dataset, evaluation & visualization code will be released later. 
+[[Baidu drive (百度网盘)]](https://pan.baidu.com/s/1wttz00Y5JZkHrpNOXor5Og?pwd=55f7) 
+
+The structure of dataset is supposed to be:
+```
+|-- DynaCam
+| --|-- video_frames
+|   |   |-- panorama_test
+|   |   |-- panorama_train
+|   |   |-- panorama_val
+|   |   |-- translation_test
+|   |   |-- translation_train
+|   |   |-- translation_val
+|   |-- annotations
+|   |   |-- *.npz
+```
 
 ## Citation
 Please cite our paper if you use DynaCam in your research. 
