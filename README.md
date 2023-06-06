@@ -1,8 +1,10 @@
 # DynaCam
+| **[[Paper]](http://arxiv.org/abs/2306.02850)**  | **[[Video]](https://youtu.be/PX-7cuZuxJs)** | **[[Project Page]](http://www.yusun.work/TRACE/TRACE.html)** |
 
-DynaCam 
- contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations:  
+DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations:  
  - **3D human trajectories in world coordinates**
+
+For the details, please refer to our [project page](http://www.yusun.work/TRACE/TRACE.html).
 
 ## Download
 
