@@ -1,8 +1,8 @@
 # DynaCam
 
-DynaCam contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations:  
+DynaCam 
+ contains **in-the-wild** RGB videos captured by dynamic cameras, including annotations:  
  - **3D human trajectories in world coordinates**
- - **Camera poses**  
 
 ## Download
 
@@ -22,6 +22,36 @@ The structure of dataset is supposed to be:
 |   |   |-- translation_val
 |   |-- annotations
 |   |   |-- *.npz
+```
+
+## Visualization
+
+To visualize each video sequences and corresponding annotations, like 3D human trajectory, please download the [SMPL_NEUTRAL.pkl](https://github.com/Arthur151/DynaCam/releases/download/predictions/SMPL_NEUTRAL.pkl) and put it into 'assets/'
+, then run
+```
+sh install.sh
+# set the path to dynacam_folder in show_examples.py 
+python show_examples.py 
+```
+<p float="center">
+  <img src="https://github.com/Arthur151/DynaCam/releases/download/predictions/dynacam_vis_examples.gif" width="50%" />
+</p>
+</p>
+Press `stop` to stop the animation, draw the `slider` to sellect the frame, press `ESC` on your keyboard to go next. 
+
+
+## Evaluation
+To re-implement all results on DynaCam in our paper, please download [predictions](https://github.com/Arthur151/DynaCam/releases/tag/predictions), set the path in evaluation.py to ensure the structure like
+```
+|-- predictions
+| --|-- TRACE
+| --|-- GLAMR
+| --|-- bev_dpvo
+```
+, then run:
+```
+sh install.sh
+python evaluation.py
 ```
 
 ## Citation
