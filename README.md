@@ -10,7 +10,7 @@ For the details, please refer to our [project page](http://www.yusun.work/TRACE/
 
 [[Google drive]](https://drive.google.com/drive/folders/12zJYkTlKPn_3tlh96BQ6zuyEr3vTxqRw?usp=sharing) 
 
-[[Baidu drive (百度网盘)]](https://pan.baidu.com/s/1wttz00Y5JZkHrpNOXor5Og?pwd=55f7) 
+[[Baidu drive (百度网盘)]](https://pan.baidu.com/s/19Fi0o8LH2p2BamWnETqMDA?pwd=8zht) 
 
 The structure of dataset is supposed to be:
 ```
